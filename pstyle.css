@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url(../home.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.logo {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: #f9004d;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: #f9004d;
+  transition: 0.4s;
+}
+.btn {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.name {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+h1 {
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 100px;
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+.paul {
+  color: #f9004d;
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+}
+h3 {
+  color: white;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+}
+h4 {
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.about {
+  background-color: #191919;
+  text-align: center;
+  color: white;
+}
+
+.myimg {
+  margin: 100px auto 40px;
+  height: 200px;
+  width: 200px;
+}
+.am {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 75px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  margin: 0px auto 30px;
+}
+.intro {
+  color: #fcfc;
+  width: 50.7%;
+  margin: 5px auto 40px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  margin: 0px auto 40px;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+.ms {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 75px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  margin: 100px auto 30px;
+}
+.ps {
+  margin: 50px auto 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.skill-row1 {
+  width: 50%;
+  margin: 50px auto 100px;
+  text-align: left;
+  line-height: 28px;
+}
+.p1 {
+  color: #fcfc;
+}
+.skill-row2 {
+  width: 50%;
+  margin: 50px auto 0px;
+  text-align: left;
+  line-height: 28px;
+}
+.p2 {
+  color: #fcfc;
+}
+.icpc {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+.leader {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me {
+  margin-top: 38px;
+  background-color: rgba(10, 10, 10, 0.596);
+  text-align: center;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px;
+}
+.get {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  font-size: 5rem;
+  margin: 20px auto 40px;
+  letter-spacing: 3px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.love {
+  color: white;
+  font-size: 20px;
+  margin: 10px auto 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #e22561;
+}
+.hw1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+}
+.hw2 {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #e22561;
+}
+.x {
+  color: black;
+}
+
+.bottom-section {
+  text-align: center;
+  background-color: #191919;
+  padding: 50px 0 20px;
+}
+
+p {
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #c8d3d3;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #e22561;
+  transition: 0.4s;
+}
